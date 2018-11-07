@@ -1,0 +1,5 @@
+1. Read more about Galactic merger rates in Burgay et. al. 2003
+2. Include magnetoshpere info from the Lyne 2004 paper
+3. Easiest way to reproduce tables
+4. Neutron star equation of state
+5. The Confirmation of DNS evolutionary Sequence
