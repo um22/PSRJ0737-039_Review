@@ -5,7 +5,9 @@
 
 \documentclass{iau}
 % Include figures (EPS only), using e.g.:
-\usepackage{graphicx} 
+\usepackage{graphicx,float}
+\floatplacement{figure}{H}
+
 
 
 %% -- Title ------------------------------------
@@ -69,7 +71,7 @@ The periastron advance($\dot\omega$) value was measured to be 16.88yr$^{-1}$ by 
 
 \subsection{The Double Neutron System(DNS) as a Testing Ground for General Relativity}
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=3.4in]{fig1.eps} 
 		\caption{Orbital energy-energy loss diagrams for known and likely double neutron binaries. $\epsilon_o$ is a direct measure for the strength of post-Newtonian effects in orbital dynamics. It can thus clearly be seen that J0737-3039 (top right) is the most suitable candidate for studying relativistic gravity. Image taken from \cite{kwex09} }
@@ -118,7 +120,7 @@ In the case of PSR J0737-3039, all five PK parameters can be measured for pulsar
 
 
 % CUP work flow only accepts EPS -- not PDF, JPG, etc.
-\begin{figure}[h!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=3.4in]{fig2.eps} 
 		\caption{M-M graph to test general relativity using PK parameters for PSR J0737-3039. Taken from \cite{james16}}
@@ -132,7 +134,7 @@ In the case of PSR J0737-3039, all five PK parameters can be measured for pulsar
 At conjunction, the line of sight of the two pulsars is within 0.15 ls of each other. As they further advance in their orbits, A is completely eclipsed by B and the line of sight of A sweeps through the magnetosphere of B. \cite{lyn04} suggested that studying the changes in radio transmission during this process can lead to understanding the physical conditions of B's magnetosphere, giving a better understanding of the plasma density and  magnetic field structure. Analysis of flux densities(figure 3) revealed an occultation of A occurs that lasts around 20s ot 30s. The spin-down energy loss of A being 3000 times greater than that of B, and the energy density of the relativistic wind from A being two orders of magnitude larger than B's, it was suggested that the wind from A will penetrate deep into B's magnetosphere. In fact, it was found that at radii greater than 40\% of the light cylinder of B, the energy field of A dominates. Because of this, the penetration of wind from A into that of B was hypothesized to be dependent on their relative orientation. This dependence was cited as the cause for fluctuations in B's flux densities over time. 
 
 % CUP work flow only accepts EPS -- not PDF, JPG, etc.
-\begin{figure}[h!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=3.4in]{fig3.eps} 
 		\caption{The variation in flux density of A (in arbitrary units) at 680 and 1390 MHz, around superior conjunction (i.e., longitude 90°). The data are presented with 5-s time resolution and show the eclipse of the pulsar by the magnetosphere of B.Image and description taken from \cite{lyn04} }
@@ -141,7 +143,7 @@ At conjunction, the line of sight of the two pulsars is within 0.15 ls of each o
 \end{figure}
 
 % CUP work flow only accepts EPS -- not PDF, JPG, etc.
-\begin{figure}[h!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics{fig4.eps} 
 		\caption{Pulsar A eclipse light curves. Each point represents 2 s of data; the shown curve
@@ -162,6 +164,38 @@ At conjunction, the line of sight of the two pulsars is within 0.15 ls of each o
 As already explained, PSR J0737-3039 has provided a rigorous testing ground for gravitation theories. However, it must be noted that the very first important result obtained from observations of stars in this system led to setting new limits on the DNS merger rates. A relativistic DNS system such as this is expected to result in a gravitational wave burst and a neutron star/black hole depending on the properties of stars in the system \cite{lipun04}. 
 
 When PSR J0737-3039 was discovered, its lifetime was first found to be 85Myr. Since PSR B1913+16 and PSR B1534+12 were the highest contributors to merger rate calculations at that time, the lifetime and luminosity of PSR J0737-3039 was compared with these two stars. Since the lifetime of PSR B1913+16 was 300 My, PSR J0737-3039's discovery significantly affected the DNS merger rate estimates. With these considerations, \cite{b03} calculated that PSR J0737-3039 caused a decrease in DNS merger rates by one order of magnitude. So the DNS merger rate went from $10^{-5}$ year$^{-1}$ to $10^{-4}$ year$^{-1}$.
+
+\section{Optical and Far Ultraviolet}
+
+The optical emission from pulsars, if any, is usually in the form of thermal radiation from the surface of the star, and/or non-thermal radiation from the magnetosphere(synchrotron radiation). However, only eighteen pulsars have been detected in the optical spectrum, of which, only seven have a pulsed emission in the optical. As a starting point, the luminosity of a pulsar due to synchroton radiation an be estimated as being proportional to $P^{-10}$, as concluded by \cite{Pacini71} in his study of the Vela pulsar. Furthermore, the effects of duty cycle (as proposed by \cite{Pacini87}) and orbital geometry also need to be taken into account. Pulsars thus have brightness on the order of 10, and are thus very faintly visible in optical region. 
+
+For PSR J0737-3039, the optical and UV observations followed extensive study of the system by XMM Newton in X-ray. There has been only one optical study of the system performed by Ferraro et. al . The observations by \cite{ferr12} were made using the High Resolution Camera of the Advanced Camera for Surveys (ACS) on board the Hubble Space Telescope . The X-Ray studies by \cite{Pelli08}  proposed three component model for the system- a power law and two blackbody components. The optical studies were done to confirm these findings . The images were taken using the F606W filter (roughly corresponding to Johnson's V filter) and F435W filter(roughly corresponding to Johnson's B filter). Since the pulsar is located around 4" from a bright star, the HRC cornograph was used. The detection in optical was still not possible and only upper limits were estimated. 
+
+The pulsar proper motion was estimated by \cite{ferr12} to be $\mu_{\alpha\cos(\delta)}$=3.82$\pm$0.62 mas $yr^{-1}$ and $\mu_\delta$=2.13$\pm$0.23 mas $yr^{-1}$. The magnitude of the system in STmag magnitude system was calculated to be $m_F435W$=27.0 and $m_F606W$=28.3. Using the following relation, mag$_\lambda$=-2.5log $F{_\lambda}$ - 21.1 , the spectral flux was calculated to be F$_F435W$=8.7 $\times$ 10$^{-5}$ keV cm$^{-2}$ s$^{-1}$ and  F$_F606W$=4.2 $\times$ 10$^{-5}$ keV cm$^{-2}$ s$^{-1}$. These spectral fluxes were then used to constrain the spectral model mentioned earlier. 
+
+To constrain the spectral model suggested by X-ray analysis, the power law and blackbody components were extended into the optical range. Only the extrapolated cold blackbody component was in agreement with the optical measurements (figure 5). The spin down luminosity of pulsar A being three orders of magnitude higher than that of B ( as discussed bt \cite{lyn04}), the optical emission is expected to be magnetospheric emission from pulsar A. From the extrapolation, it was thus concluded by \cite{ferr12} that either the pulsar A magnetosphere does not provide any contribution in the non-thermal region or there is a break at these wavelengths. The spectral model of power law and two blackbody components as predicted by the XMM-Newton data would comply with the optical study only in the case of a spectral break at low energies in the power law component. Such a spectral break was observed by \cite{Mig14} in many pulsars, and is thus a possibility. It was expected that observations in UV will be possible that will allow making better constraints on the thermal emission from the system.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=3.4in]{fig5.eps} 
+		\caption{Extrapolation into the optical regime of the model that best fits the XMM-Newton data of the pulsar system: a cooler BB and a hotter BB plus a PL. The
+			solid lines are the best-fit model components, while the dot-dashed lines correspond to the 90$\%$ confidence level uncertainties of the best fit. The gray region marks the location and uncertainties of the X-ray measurements. The two arrows indicate the F435W- and F606W-band upper limits obtained from the HST data.Image and description taken from \cite{ferr12} }
+		\label{fig5}
+	\end{center}
+\end{figure}
+
+The system was observed in the FUV using Solar Blind Channel of ACS aboard the HST by \cite{Dur14} . Low-pass filter F125LP was used to make these observations. As with the optical analysis, the extrapolated power law component from X-Ray observations overshoots the UV measurements (figure 6). This again hints at a power law spectrum that breaks at lower energies. Additionally, after taking the observed reddening into account (E(B-V)=0.1), a temperature of 0.4 MK was obtained. However, applying this to the X-ray model yielded an emitting radius of around 33 km. It was significantly more than the expected value, and it was thus concluded that the three component spectral model predicted by X-Rays could indeed be incomplete. A final statement about the validity of the model could not be made before further observations in UV and optical are made.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=3.4in]{fig6.eps} 
+		\caption{Measurements and models for the spectral flux of J0737. The unfilled
+			and filled triangles show the measured and extinction-corrected FUV fluxes,
+			respectively, in the F125LP and F140LP filters for E(B − V ) = 0.1. The upper
+			limits in two optical filters are from \cite{ferr12}. The unabsorbed X-ray spectrum taken from \cite{Pelli08} is shown by the thick line; the dotted line shows the cold BB component from the BB+BB model for the phase-integrated X-ray spectrum. The solid and dashed lines show examples of BB models which best fit the F125LP detection for E(B − V ) = 0.1. The radii in the legend are for d = 1.1 kpc.Image and description taken from \cite{Dur14} }
+		\label{fig6}
+	\end{center}
+\end{figure} 
 
 
 
@@ -193,6 +227,21 @@ When PSR J0737-3039 was discovered, its lifetime was first found to be 85Myr. Si
 \bibitem[James et al. (2016)]{james16}  James Justin Condon, Scott M. Ransom, 2016. 6 Pulsars‣ Essential Radio Astronomy [WWW Document]. URL https://www.cv.nrao.edu/~sransom/web/Ch6.html (accessed 10.17.18).
 
 \bibitem[Lipunov (2004)]{lipun04} Lipunov, V.M., 2004. arXiv:astro-ph/0406502.
+
+\bibitem[Ferraro et. al (2012)]{ferr12} Ferraro, F.R., Mignani, R.P., Pallanca, C., Dalessandro, E., Lanzoni, B., Pellizzoni, A., Possenti, A., Burgay, M., Camilo, F., D’Amico, N., Lyne, A.G., Kramer, M., Manchester, R.N., 2012. The Astrophysical Journal 749, 84.
+
+\bibitem[Pacini (1971)]{Pacini71} Pacini, F., 1971. The Astrophysical Journal 163, L17–L19.
+
+\bibitem[Pacini et. al (1987)]{Pacini87} Pacini, F., Salvati, M., 1987. The Astrophysical Journal 321, 447.
+
+\bibitem[Pellizzoni et al. (2008)]{Pelli08} Pellizzoni, A., Tiengo, A., De Luca, A., Esposito, P., Mereghetti, S., 2008. The Astrophysical Journal 679, 664–674.
+
+\bibitem[Mignani et al. (2014)]{Mig14} Mignani, R.P., Corongiu, A., Pallanca, C., Oates, S.R., Yershov, V.N., Breeveld, A.A., Page, M.J., Ferraro, F.R., Possenti, A., Jackson, A.C., 2014. Monthly Notices of the Royal Astronomical Society 443, 2223–2241.
+
+\bibitem[Durant et al. (2014)]{Dur14} Durant, M., Kargaltsev, O., Pavlov, G.G., 2014. The Astrophysical Journal 783, L22.
+
+
+
 
 
 

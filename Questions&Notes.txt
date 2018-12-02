@@ -3,3 +3,8 @@
 3. Easiest way to reproduce tables
 4. Neutron star equation of state
 5. The Confirmation of DNS evolutionary Sequence
+----------------------------
+About GAIA:
+1) Only does photometry (luminosity, distance, velocity, etc.). How is that useful in understanding the physics? Hasn't this been determined by previous groups using radio.
+2) What is quantum vacuum?
+3) Modelling with power law+2 Black body 
